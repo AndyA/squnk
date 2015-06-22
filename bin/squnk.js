@@ -2,4 +2,5 @@
 
 "use strict";
 
-console.log("Hello");
+var squnk = require("..");
+squnk.cli(process.argv.slice(2));
