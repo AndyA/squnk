@@ -22,14 +22,14 @@
    },
    "eslintConfig" : {
       "env" : {
-         "browser" : true,
          "node" : true
       },
       "plugins" : [
          "mocha"
       ],
       "rules" : {
-         "mocha/no-exclusive-tests" : 2
+         "mocha/no-exclusive-tests" : 2,
+         "no-loop-func" : 0
       }
    },
    "homepage" : "https://github.com/AndyA/squnk#readme",
