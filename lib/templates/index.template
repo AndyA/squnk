@@ -1,3 +1,4 @@
+// Controller for <%= name %>
 "use strict";
 
 module.exports = {
