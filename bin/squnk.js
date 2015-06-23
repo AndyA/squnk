@@ -2,5 +2,5 @@
 
 "use strict";
 
-var squnk = require("..");
-squnk.cli(process.argv.slice(2));
+require("..")
+  .cli(process.argv);

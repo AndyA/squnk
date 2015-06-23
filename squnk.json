@@ -1,3 +1,4 @@
 {
-   "connection" : "mysql://root@localhost/squnk"
+   "connection" : "mysql://root@localhost/squnk",
+   "plugins" : {}
 }

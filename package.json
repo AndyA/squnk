@@ -6,6 +6,9 @@
    "bugs" : {
       "url" : "https://github.com/AndyA/squnk/issues"
    },
+   "dependencies" : {
+      "commander" : "^2.8.1"
+   },
    "description" : "Database schema update / migration tool",
    "devDependencies" : {
       "chai" : "^3.0.0",
