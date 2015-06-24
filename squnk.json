@@ -1,5 +1,7 @@
 {
    "baseDir" : "squnk",
-   "connection" : "mysql://root@localhost/squnk",
+   "connections" : {
+      "default" : "mysql://root@localhost/squnk"
+   },
    "plugins" : {}
 }

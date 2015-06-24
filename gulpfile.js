@@ -11,13 +11,16 @@ gulp.task("lint", function() {
   src.push("bin/**/*.js");
   src.push("lib/**/*.js");
   src.push("test/**/*.js");
-  return gulp.src(src).pipe(eslint()).pipe(eslint.format());
+  return gulp.src(src)
+    .pipe(eslint())
+    .pipe(eslint.format());
 });
 
 gulp.task("test", function() {
-  return gulp.src(["test/**/*.js"]).pipe(mocha({
-    reporter: "dot"
-  }));
+  return gulp.src(["test/**/*.js"])
+    .pipe(mocha({
+      reporter: "spec"
+    }));
 });
 
 gulp.task("default", ["lint", "test"], function() {});
